@@ -1,0 +1,6 @@
+5 distinc IP :
+ - georgebrown.ca : 198.96.86.202 Geolocation: CA (Canada), ON, Ontario, M5T Toronto
+ - netflix.ca : 52.3.32.33 Geolocation: US (United States), VA, Virginia, 20149 Ashburn
+ - gmail.com : 172.217.10.69 Geolocation: US (United States), CA, California, 94043 Mountain View
+ - yahoo.com : 72.30.35.10 Geolocation: US (United States), CA, California, 94089 Sunnyvale
+ - dazn.com : 52.219.0.196 Geolocation: JP (Japan), 13, Hyogo, 190-0031 Tokyo

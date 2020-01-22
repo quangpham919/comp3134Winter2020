@@ -1,0 +1,77 @@
+Scan 1000 TCP ports 
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap www.georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:37 UTC
+Nmap scan report for www.georgebrown.ca (198.96.86.202)
+Host is up (0.0011s latency).
+rDNS record for 198.96.86.202: torontocitycollege.ca
+Not shown: 988 filtered ports
+PORT      STATE SERVICE
+21/tcp    open  ftp
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+3389/tcp  open  ms-wbt-server
+7937/tcp  open  nsrexecd
+7938/tcp  open  lgtomapper
+49152/tcp open  unknown
+49153/tcp open  unknown
+49154/tcp open  unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 24.19 seconds
+
+Scan a single Port: 
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 10 www.georgebrown.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:38 UTC
+Nmap scan report for www.georgebrown.ca (198.96.86.202)
+Host is up (0.0017s latency).
+rDNS record for 198.96.86.202: georgebrown.ca
+
+PORT   STATE    SERVICE
+10/tcp filtered unknown
+
+Nmap done: 1 IP address (1 host up) scanned in 0.48 seconds
+
+Scan a range of ports: 
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -p 10-20 www.google.ca
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:40 UTC
+Nmap scan report for www.google.ca (172.217.164.195)
+Host is up (0.0017s latency).
+Other addresses for www.google.ca (not scanned): 2607:f8b0:400b:800::2003
+rDNS record for 172.217.164.195: yyz12s04-in-f3.1e100.net
+
+PORT   STATE    SERVICE
+10/tcp filtered unknown
+11/tcp filtered systat
+12/tcp filtered unknown
+13/tcp filtered daytime
+14/tcp filtered unknown
+15/tcp filtered netstat
+16/tcp filtered unknown
+17/tcp filtered qotd
+18/tcp filtered msp
+19/tcp filtered chargen
+20/tcp filtered ftp-data
+
+Nmap done: 1 IP address (1 host up) scanned in 1.70 seconds
+
+Scan 100 most common ports:
+
+root@lamp-s-1vcpu-1gb-tor1-01:~# nmap -F www.facebook.com
+
+Starting Nmap 7.60 ( https://nmap.org ) at 2020-01-22 03:41 UTC
+Nmap scan report for www.facebook.com (31.13.80.36)
+Host is up (0.00076s latency).
+Other addresses for www.facebook.com (not scanned): 2a03:2880:f10e:83:face:b00c:0:25de
+rDNS record for 31.13.80.36: edge-star-mini-shv-01-yyz1.facebook.com
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.80 seconds
+

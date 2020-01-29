@@ -1,0 +1,7 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+18:19:52.795628 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.59296: Flags [P.], seq 3722251780:3722251824, ack 4150762485, win 349, options [nop,nop,TS val 3312487834 ecr 2897802134], length 44
+18:19:52.795806 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.59296: Flags [P.], seq 44:152, ack 1, win 349, options [nop,nop,TS val 3312487834 ecr 2897802134], length 108
+18:19:52.795915 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.59296: Flags [P.], seq 152:188, ack 1, win 349, options [nop,nop,TS val 3312487834 ecr 2897802134], length 36
+18:19:52.798166 IP 198.96.85.163.59296 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 44, win 1755, options [nop,nop,TS val 2897802144 ecr 3312487834], length 0
+

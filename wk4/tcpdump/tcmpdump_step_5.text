@@ -1,0 +1,53 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -c 5 -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+18:18:28.425851 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.59296: Flags [P.], seq 3722241272:3722241380, ack 4150758825, win 349, options [nop,nop,TS val 3312403464 ecr 2897717763], length 108
+	0x0000:  fe00 0000 0101 f268 a65f 46d8 0800 4510  .......h._F...E.
+	0x0010:  00a0 13c2 4000 4006 2d01 9fcb 3db6 c660  ....@.@.-...=..`
+	0x0020:  55a3 0016 e7a0 dddc e4f8 f767 8da9 8018  U..........g....
+	0x0030:  015d fa17 0000 0101 080a c56f 4408 acb7  .].........oD...
+	0x0040:  aa03 db2b b481 52ad d744 10f8 4864 64fc  ...+..R..D..Hdd.
+	0x0050:  4c5c 8d3e 908e 71b5 4fd3 2c55 3a6e f23a  L\.>..q.O.,U:n.:
+	0x0060:  3964 747a 60f9 2e8d 4a13 3932 ed80 9db1  9dtz`...J.92....
+	0x0070:  20c9 1b12 2c03 37a7 a1ab c04b 3345 3184  ....,.7....K3E1.
+	0x0080:  2cd2 592f cb74 1fe0 8699 44d4 25aa 54e5  ,.Y/.t....D.%.T.
+	0x0090:  0e1e 3c46 005f f3c3 9226 82bb ea61 20a8  ..<F._...&...a..
+	0x00a0:  6f9d 234c c558 1efe d45a 9ebf e8b5       o.#L.X...Z....
+18:18:28.425949 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.59296: Flags [P.], seq 108:144, ack 1, win 349, options [nop,nop,TS val 3312403464 ecr 2897717763], length 36
+	0x0000:  fe00 0000 0101 f268 a65f 46d8 0800 4510  .......h._F...E.
+	0x0010:  0058 13c3 4000 4006 2d48 9fcb 3db6 c660  .X..@.@.-H..=..`
+	0x0020:  55a3 0016 e7a0 dddc e564 f767 8da9 8018  U........d.g....
+	0x0030:  015d f9cf 0000 0101 080a c56f 4408 acb7  .].........oD...
+	0x0040:  aa03 0729 72d3 2644 800b 8bbe 3218 0d42  ...)r.&D....2..B
+	0x0050:  712f 7016 cb15 e155 cfec 93f6 4f5f 166f  q/p....U....O_.o
+	0x0060:  63c8 4d8d 2f00                           c.M./.
+18:18:28.426045 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.59296: Flags [P.], seq 144:252, ack 1, win 349, options [nop,nop,TS val 3312403464 ecr 2897717763], length 108
+	0x0000:  fe00 0000 0101 f268 a65f 46d8 0800 4510  .......h._F...E.
+	0x0010:  00a0 13c4 4000 4006 2cff 9fcb 3db6 c660  ....@.@.,...=..`
+	0x0020:  55a3 0016 e7a0 dddc e588 f767 8da9 8018  U..........g....
+	0x0030:  015d fa17 0000 0101 080a c56f 4408 acb7  .].........oD...
+	0x0040:  aa03 5b3b 0330 e6ad 594f 4ee9 28b3 9c2e  ..[;.0..YON.(...
+	0x0050:  2c55 f484 a2b6 9493 c388 1eb8 e9fc d762  ,U.............b
+	0x0060:  31f3 976b 8c39 b05d 11bb a19c fe15 5ae8  1..k.9.]......Z.
+	0x0070:  de9e 3a03 55de 8e4f 7248 7687 cb65 861c  ..:.U..OrHv..e..
+	0x0080:  9257 bb7e e334 599d dff5 b2db ed80 22ed  .W.~.4Y.......".
+	0x0090:  ebf6 d6b5 e7c7 8dce d51f 361c d139 34fb  ..........6..94.
+	0x00a0:  33e9 1007 d3f3 3120 5645 39f6 2a9b       3.....1.VE9.*.
+18:18:28.426127 IP lamp-s-1vcpu-1gb-tor1-01.ssh > 198.96.85.163.59296: Flags [P.], seq 252:288, ack 1, win 349, options [nop,nop,TS val 3312403464 ecr 2897717763], length 36
+	0x0000:  fe00 0000 0101 f268 a65f 46d8 0800 4510  .......h._F...E.
+	0x0010:  0058 13c5 4000 4006 2d46 9fcb 3db6 c660  .X..@.@.-F..=..`
+	0x0020:  55a3 0016 e7a0 dddc e5f4 f767 8da9 8018  U..........g....
+	0x0030:  015d f9cf 0000 0101 080a c56f 4408 acb7  .].........oD...
+	0x0040:  aa03 8494 986b 9491 61e8 f4a8 dbcd 7b33  .....k..a.....{3
+	0x0050:  2841 93fe 7ccb 67a0 f69d 70ce 7385 2a97  (A..|.g...p.s.*.
+	0x0060:  c83f 49e8 a88d                           .?I...
+18:18:28.428050 IP 198.96.85.163.59296 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 1755, options [nop,nop,TS val 2897717773 ecr 3312403464], length 0
+	0x0000:  f268 a65f 46d8 fe00 0000 0101 0800 4510  .h._F.........E.
+	0x0010:  0034 e19a 4000 3b06 6494 c660 55a3 9fcb  .4..@.;.d..`U...
+	0x0020:  3db6 e7a0 0016 f767 8da9 dddc e564 8010  =......g.....d..
+	0x0030:  06db e615 0000 0101 080a acb7 aa0d c56f  ...............o
+	0x0040:  4408                                     D.
+5 packets captured
+52 packets received by filter
+41 packets dropped by kernel
+

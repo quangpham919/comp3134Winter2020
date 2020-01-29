@@ -1,0 +1,14 @@
+Network Sniffing:
+Process of monitoring and capturing data of a networ
+Sniffing is the process of monitoring and capturing all the packages passing through a given network using sniffing tools
+
+How network sniffing works: 
+Attacker forces switch to behave as a hub 
+
+Passive Sniffing:
+Traffic is recoreded but not altered (only listening) 
+
+Active Sniffing: 
+Traffic is monitored and maybe altered 
+Injects address resolution packets into a target network to flood on the switch 
+

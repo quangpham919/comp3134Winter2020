@@ -1,0 +1,8 @@
+# Restart the sshd service command : 
+service sshd restart
+
+# log into ssh serivce using the specific port :
+
+ssh root@remoteservername -p portnumber 
+
+ssh root@159.203.61.182 -p 2222 

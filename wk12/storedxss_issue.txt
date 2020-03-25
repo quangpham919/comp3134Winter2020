@@ -1,0 +1,4 @@
+# In the file storexss.php : 
+When I go to that page it show nothing.
+Possibly, Because we have injected a script code into the text file, thus the file contents was not showed up because the source code has been changed. 
+ 

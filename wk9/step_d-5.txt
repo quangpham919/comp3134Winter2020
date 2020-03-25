@@ -1,0 +1,11 @@
+• What you see on the browser (the issue)?
+here is what the browser show up ? 
+	Array
+(
+    [0] => .
+    [1] => ..
+    [2] => html
+)
+• What sensitive information is given by this page?
+- the array which have the path and the folder named html in the server 
+

@@ -1,0 +1,4 @@
+# I echo h1 tag in to page 
+ echo "<h1> This is an H1 tag </h1> 
+# After that I convert comments from html to php's comments : 
+ in PHP : #Created by John Smith with employee id: 123456

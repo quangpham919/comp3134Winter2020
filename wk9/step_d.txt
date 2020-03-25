@@ -1,0 +1,14 @@
+• What you see on the browser (the issue)?
+Here is what the page show up : 
+Warning:  scandir(hello): failed to open dir: No such file or directory in /var/www/html/directory_traversal_part1.php on line 7
+
+Warning:  scandir(): (errno 2): No such file or directory in /var/www/html/directory_traversal_part1.php on line 7
+
+# It indicates error because there is no such file or directory in which named hello
+What sensitive information is given by this page?
+
+- The sensitive information is the " /var/www/html/directory_traversal_part1.php " which is
+the path and the file and the folders name in the server
+
+
+

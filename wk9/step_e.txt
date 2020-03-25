@@ -1,0 +1,4 @@
+To prevent user from seeing folder and file outside the html I used the basename() function to only take the file name of GET request not the folder: $path = isset($GET['q']) ? basename($GET_['q']) : '.'
+
+To prevent server echo all the path and folder outside the html folder : 
+Using file_exists() to check if file not exist print error message and hide the error report

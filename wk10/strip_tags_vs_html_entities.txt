@@ -1,0 +1,5 @@
+# The Difference 
+ Having a stripping tags or displaying the html entity value of any user input in comparison with 
+ Do not have it is preventing attacker from inserting javascript code into form to send to server, which result in spoofing or server can be attacked.
+
+

@@ -1,0 +1,30 @@
+
+Testing and Exploiting SQL Vulnerabilities :
+1. Ben
+
+   My result is : 0 result as expected
+   There is no result returned because there is no data that have "Ben" as firstname but active
+    with value of 1.
+   As I have hanlder if there is no result return from the database the application would print
+   0 result
+
+2. Ben'--
+   My result is : the record with firstname as Ben and active as 0.
+   
+   This is not my expected result , since I have a condition where active column is equal to 1.
+   
+   This is one kind of sql injection where the user has injected their code to destroy our database
+   via a submit form
+   
+   The user has inject a closing quote and two dashes which make the remaining of the query in the server is treated as a command.
+	
+3. Ben' or 1=1 
+   My result is : The server return all the rows in the users table.
+   This result is not what I expected to be.
+   Again, this is one kind of sql injection.
+   Since 1=1 is always true, the query will return all the rows in the tables. 
+
+Mitigate SQL Injection: 
+
+After implemented prepared statements into my code. 
+All three scenarios have results as I have expected. 
